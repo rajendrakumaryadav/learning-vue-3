@@ -1,5 +1,7 @@
 # Learning Vue 3
 
+* Click to visit the live WebApp : [Covid 19 Tracker](https://covid-19-tracker-using-vue.netlify.app/)
+
 ## Project setup
 ```
 npm install
