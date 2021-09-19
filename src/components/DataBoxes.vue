@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-5 mb-5 mr-5 grid md:grid-cols-2 gap-4">
+  <div class="grid md:grid-cols-2 gap-4">
     <!--    Cases-->
     <div class="shadow-md bg-yellow-100 p-10 text-center rounded">
       <h3 class="text-3xl text-yellow-500 font-bold mb-4"><i class="fa fa-pump-medical"></i> Cases</h3>
@@ -8,22 +8,22 @@
         {{ formattedNewConfirmed }}
       </div>
       <div class="text-xl mb-4">
-       <span class="font-bold">Total : </span>
+        <span class="font-bold">Total : </span>
         {{ formattedTotalCase }}
+      </div>
     </div>
-  </div>
     <!--  Deaths -->
-       <div class="shadow-md bg-yellow-100 p-10 text-center rounded">
-      <h3 class="text-3xl text-yellow-500 font-bold mb-4"> <i class="fa fa-skull"></i> Deaths</h3>
+    <div class="shadow-md bg-yellow-100 p-10 text-center rounded">
+      <h3 class="text-3xl text-yellow-500 font-bold mb-4"><i class="fa fa-skull"></i> Deaths</h3>
       <div class="text-xl mb-4">
         <span class="font-bold"> New : </span>
         {{ formattedNewDeaths }}
       </div>
       <div class="text-xl mb-4">
-       <span class="font-bold">Total : </span>
+        <span class="font-bold">Total : </span>
         {{ formattedTotalDeaths }}
+      </div>
     </div>
-  </div>
   </div>
 </template>
 
@@ -52,7 +52,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>
