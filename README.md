@@ -1,4 +1,5 @@
 # Learning Vue 3
+Check the Project Hosted with [netlify](https://covid-19-tracker-using-vue.netlify.app/)
 
 ## Project setup
 ```
@@ -22,6 +23,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+* Final Application
+![Final Result](https://user-images.githubusercontent.com/13816347/133930111-7d632b77-4aa1-4bf9-819c-5ab67bba9257.png)
+
 
 ---
 Hi, I am Rajendra...
