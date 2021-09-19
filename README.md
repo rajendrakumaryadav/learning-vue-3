@@ -1,4 +1,4 @@
-# learning_vue
+# Learning Vue 3
 
 ## Project setup
 ```
