@@ -9,7 +9,7 @@ export default {
   name: 'Footer',
   data () {
     return {
-      gitRepoURL: 'github.com/rajendrakumaryadav/learning-vue-3'
+      gitRepoURL: 'https://github.com/rajendrakumaryadav/learning-vue-3'
     }
   }
 }
